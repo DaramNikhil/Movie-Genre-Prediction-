@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <mata name="viewport" content="width=device-width","inirtial-scale=1.0" >
+        <title>Genre prediction</title>
+        <style>
+            .center{
+                text-align:center;
+            }
+            #title{
+                color:cyan;                
+            }
+            body{
+                background-color:#43938A;
+            }
+        </style>
+    </head>
+    <h1 id = "title"> Your Genre Is</h1>
+    <body class="center">
+        {% if prediction_==1 %}
+            <h1>Action</h1>    
+        {%  elif prediction_==2 %}:
+            <h1>Adventure</h1>
+        {%  elif prediction_==3 %}:
+            <h1>Horror</h1> 
+        {%  elif prediction_==4 %}:
+            <h1>Animation</h1> 
+        {%  elif prediction_==5 %}:
+            <h1>Comidy</h1> 
+        {%  elif prediction_==6 %}:
+            <h1>Biography</h1>
+        {%  elif prediction_==7 %}:
+            <h1>Drama</h1>
+        {%  elif prediction_==8 %}:
+            <h1>Crime</h1>
+        {%  elif prediction_==9 %}:
+            <h1>Romance</h1> 
+         {%  elif prediction_==10 %}:
+            <h1>Mistory</h1>
+        {%  elif prediction_==11 %}:
+            <h1>Thriller</h1>
+        {%  elif prediction_==12 %}:
+            <h1>Sci-Fi</h1>
+        {%  elif prediction_==13 %}:
+            <h1>Fantacy</h>
+        {%  elif prediction_==14 %}:
+            <h1>Suspence Thriller</h>                                
+        {% endif %}
+       
+          
+       
+    </body>       
+        
+</html>
