@@ -36,7 +36,7 @@ To turn on your local machine, make sure you have every requirement.
 ## Clone
 
 ```bash
-  git clone https://link-to-project
+  gh repo clone DaramNikhil/Movie-Genre-Prediction-
 ```
 ## About Me
 I'm a Passionate Data Scientist...
